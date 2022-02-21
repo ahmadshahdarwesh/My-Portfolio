@@ -30,7 +30,6 @@ header ul a {
 }
 header ul a:hover {
   background-color: white;
-  text-decoration: underline;
   color: gray;
 }
 

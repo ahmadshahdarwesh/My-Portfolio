@@ -1,0 +1,40 @@
+main {
+  div {
+    border: 2px solid white;
+    height: 80vh;
+    margin-left: 10%;
+    width: 60%;
+    color: orange;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    h1 {
+      font-size: 54px;
+    }
+    p {
+      font-size: 24px;
+      line-height: 2;
+    }
+    input {
+      width: 10vw;
+      height: 4vh;
+
+      background-color: orange;
+      font-size: 20px;
+      border: none;
+      border-radius: 50%;
+      &:hover {
+        background-color: white;
+        //   text-decoration: underline;
+        color: gray;
+        font-weight: bold;
+        border-radius: 0%;
+        border: orange 2px dashed;
+      }
+    }
+  }
+}
