@@ -1,10 +1,3 @@
-@import url(./header.scss);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 header {
   width: 100%;
   height: 10vh;
@@ -15,6 +8,11 @@ header {
 header img {
   width: 20%;
   border-radius: 50%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+header nav {
+  width: 50%;
 }
 header ul {
   display: flex;
@@ -23,9 +21,29 @@ header ul {
 }
 header ul li {
   list-style: none;
+  margin-right: 5%;
 }
 header ul a {
   text-decoration: none;
+  font-size: 24px;
+  color: orange;
+}
+header ul a:hover {
+  background-color: white;
+  text-decoration: underline;
+  color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/20211022_133941.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */

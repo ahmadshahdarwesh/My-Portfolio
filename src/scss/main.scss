@@ -1,30 +1,13 @@
-@import url(./header.scss);
+@import "./header.scss";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-header {
-  width: 100%;
-  height: 10vh;
-  //   background-color: aqua;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  img {
-    width: 20%;
-    border-radius: 50%;
-  }
-  ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    li {
-      list-style: none;
-    }
-    a {
-      text-decoration: none;
-    }
-  }
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/20211022_133941.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
