@@ -78,10 +78,10 @@ header div {
 }
 @keyframes move-left {
   0% {
-    margin-left: 0%;
+    margin-left: -20%;
   }
   50% {
-    margin-left: 5%;
+    margin-left: 0%;
   }
   100% {
     margin-left: 10%;
@@ -89,7 +89,7 @@ header div {
 }
 header nav {
   animation-name: move;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 @keyframes move {
   0% {
