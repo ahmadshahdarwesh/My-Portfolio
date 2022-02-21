@@ -34,7 +34,6 @@ header ul a:hover {
 }
 
 main div {
-  border: 2px solid white;
   height: 80vh;
   margin-left: 10%;
   width: 60%;
@@ -57,16 +56,20 @@ main div input {
   width: 10vw;
   height: 4vh;
   background-color: orange;
-  font-size: 20px;
-  border: none;
-  border-radius: 50%;
-}
-main div input:hover {
-  background-color: white;
   color: gray;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 0%;
   border: orange 2px dashed;
+}
+main div input:hover {
+  background-color: white;
+  color: orange;
+  font-style: italic;
+  border: orange 2px dashed;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
 }
 
 * {
