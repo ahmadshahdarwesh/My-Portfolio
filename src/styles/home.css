@@ -33,7 +33,7 @@ main div input:hover {
   font-style: italic;
   border: orange 2px dashed;
   font-size: 20px;
-  border: none;
+  text-decoration: underline;
   border-radius: 50%;
 }
 
