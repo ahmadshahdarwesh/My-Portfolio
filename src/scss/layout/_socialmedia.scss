@@ -1,0 +1,16 @@
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 2%;
+  h2 {
+    // border: 1px solid blue;
+    display: inline;
+    font-size: 32px;
+    &:last-child {
+      color: white;
+      background-color: orange;
+      margin-left: 5px;
+    }
+  }
+}
