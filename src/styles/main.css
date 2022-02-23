@@ -6,12 +6,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header img {
-  width: 20%;
-  border-radius: 50%;
-  margin-left: 5%;
-  margin-top: 5%;
-}
 header nav {
   width: 50%;
 }
@@ -57,11 +51,10 @@ main div input {
   width: 10vw;
   height: 4vh;
   background-color: rgba(255, 166, 0, 0.794);
-  color: gray;
+  color: white;
   font-size: 20px;
   font-weight: bold;
   border-radius: 0%;
-  border: orange 2px dashed;
 }
 main div input:hover {
   background-color: white;
@@ -375,6 +368,25 @@ main div h1 {
   line-height: 3;
   transition: 4s;
   color: orange;
+}
+
+.logo {
+  width: 12vw;
+  padding: 5px;
+  box-shadow: 3px 3px 0.8em olive, -1em 0;
+}
+.logo h2 {
+  display: inline;
+  font-size: 32px;
+}
+.logo h2:first-child {
+  border: 6px solid orange;
+  color: white;
+}
+.logo h2:last-child {
+  color: white;
+  border: 6px solid white;
+  background-color: orange;
 }
 
 * {
