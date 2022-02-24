@@ -88,6 +88,9 @@ main div .input1 a {
   text-decoration: none;
   color: white;
 }
+main div .input1 a:hover {
+  color: orange;
+}
 
 .heading {
   display: flex;
