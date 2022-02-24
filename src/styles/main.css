@@ -395,25 +395,6 @@ main div h1 {
   color: orange;
 }
 
-.logo {
-  width: 12vw;
-  padding: 5px;
-  box-shadow: 3px 3px 0.8em olive, -1em 0;
-}
-.logo h2 {
-  display: inline;
-  font-size: 32px;
-}
-.logo h2:first-child {
-  border: 6px solid orange;
-  color: white;
-}
-.logo h2:last-child {
-  color: white;
-  border: 6px solid white;
-  background-color: orange;
-}
-
 .work {
   display: flex;
   justify-content: center;
