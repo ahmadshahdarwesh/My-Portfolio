@@ -2,7 +2,7 @@
 
 ---
 
-![Screenshot from Project](./images/portfolio.webm)
+![Screenshot from Project](../images/portfolio.webm)
 
 ---
 
