@@ -2,8 +2,7 @@
 
 ---
 
-![Screenshot from Project](./images/screen1.png)
-![Screenshot from Project](./images/screen2.png)
+![Screenshot from Project](./images/portfolio.webm)
 
 ---
 
